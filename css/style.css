@@ -11,6 +11,45 @@ body {
 }
 
 /* *** Layout *** */
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background:white;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+}
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
 
 #cabecalho {
     background: #f7b600;
@@ -27,12 +66,19 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
+    color: #f7b600;
+}
+a:hover {
+    text-decoration: underline;
+}
+#cabecalho a:link, #cabecalho a:visited {
     color: white;
     padding: 8px 12px;
 }
-a:hover {
+#cabecalho a:hover {
     background: white;
     color: #f7b600;
+    text-decoration: none;
 }
 
 /**** Formatação Geral ****/
@@ -40,7 +86,27 @@ h1 {
     color: #4e4e4e;
     font-size: 2.5em;
 }
+h2 {
+    color: #f7b600;
+}
+h3 {
+    background-color: #f7b600;
+    color: white;
+    padding: 5px;*
+}
 
 .branco {
     color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-categoria a {
+    padding: 5px;
 }
